@@ -1,0 +1,25 @@
+main: me.simmi.geodes.main
+name: geodes
+version: '1.0'
+description: geodes
+author: lilsimmi
+prefix: geodes
+api-version: 1.18
+
+commands:
+  givegeode:
+    description: give geode
+    usage: /<command>
+    permission: geodes.give
+    
+  givecracker:
+    description: gives cracker
+    usage: /<command>
+    permission: geodes.give
+
+permissions:
+  geodes.give:
+    description: allows give command
+    default: op
+
+
